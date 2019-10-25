@@ -51,7 +51,6 @@ a{
 #menu>ul>li>div>ul{
     background: white;
     border-radius: 8px;
-    padding-left: 15px;
 }
 #menu>ul>li>div::before{
     content: ' ';
@@ -71,7 +70,8 @@ a{
 #menu>ul>li>div>ul>li>a{
     color: #df9e9e;
     height: 25px;
-    line-height: 25px;
+    line-height: 25px;    
+    padding-left: 15px;
 }
 #menu>ul>li:hover{
     background: rgb(62, 151, 163);
@@ -79,7 +79,10 @@ a{
 #menu>ul>li:hover>div{
     display: block;
 }
-
+#menu>ul>li:hover>div>ul>li:hover{
+    background: #ebebeb;
+    border-radius: 3px;
+}
 
 
 #body{
